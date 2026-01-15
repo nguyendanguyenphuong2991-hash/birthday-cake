@@ -511,9 +511,12 @@ export default function App() {
 
   return (
     <div className="App">
-         <div
-        className="background-overlay"
-        style={{ opacity: backgroundOpacity }}
+      <div 
+  className="background-overlay" 
+  style={{ 
+    opacity: backgroundOpacity,
+    pointerEvents: backgroundOpacity > 0 ? 'all' : 'none' 
+  }}
         onClick={() => {
           if (!hasStarted) {
             playBackgroundMusic();
