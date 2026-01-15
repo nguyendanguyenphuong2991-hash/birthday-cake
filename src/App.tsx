@@ -99,7 +99,7 @@ type BirthdayCardConfig = {
 const BIRTHDAY_CARDS: ReadonlyArray<BirthdayCardConfig> = [
   {
     id: "confetti",
-    image: "/card.png",
+    image: "/birthday-cake/card.png",
     position: [1, 0.081, -2],
     rotation: [-Math.PI / 2 , 0, Math.PI / 3],
   }
@@ -266,25 +266,25 @@ function AnimatedScene({
       <group ref={tableGroup}>
         <Table />
         <PictureFrame
-          image="./frame2.jpg"
+          image="/birthday-cake/frame2.jpg"
           position={[0, 0.735, 3]}
           rotation={[0, 5.6, 0]}
           scale={0.75}
         />
         <PictureFrame
-          image="./frame3.jpg"
+          image="/birthday-cake/frame3.jpg"
           position={[0, 0.735, -3]}
           rotation={[0, 4.0, 0]}
           scale={0.75}
         />
         <PictureFrame
-          image="./frame4.jpg"
+          image="/birthday-cake/frame4.jpg"
           position={[-1.5, 0.735, 2.5]}
           rotation={[0, 5.4, 0]}
           scale={0.75}
         />
         <PictureFrame
-          image="./frame1.jpg"
+          image="/birthday-cake/frame1.jpg"
           position={[-1.5, 0.735, -2.5]}
           rotation={[0, 4.2, 0]}
           scale={0.75}
@@ -562,7 +562,7 @@ export default function App() {
           <ambientLight intensity={(1 - environmentProgress) * 0.8} />
           <directionalLight intensity={0.5} position={[2, 10, 0]} color={[1, 0.9, 0.95]}/>
           <Environment
-            files={["/shanghai_bund_4k.hdr"]}
+            files={["/birthday-cake/shanghai_bund_4k.hdr"]}
             backgroundRotation={[0, 3.3, 0]}
             environmentRotation={[0, 3.3, 0]}
             background
