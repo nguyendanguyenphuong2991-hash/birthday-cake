@@ -9,5 +9,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-  </body>
+  </body><audio id="bgMusic" loop>
+  <source src="./music.mp3" type="audio/mpeg">
+</audio>
+<script>
+  document.addEventListener('click', function() {
+    var audio = document.getElementById('bgMusic');
+    if (audio) {
+      audio.play().catch(function(error) {
+        console.log("Chưa phát được nhạc: ", error);
+      });
+    }
+  }, { once: true });
+</script>
 </html>
