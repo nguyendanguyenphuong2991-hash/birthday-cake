@@ -77,13 +77,11 @@ const BACKGROUND_FADE_START = Math.max(
 );
 
 const TYPED_LINES = [
-  "> khoa iu",
+  "> hi khoa iu",
   "...",
   "> chúc mừng sinh nhật khoa của em, cảm ơn vì đã luôn cố gắng,chúc cho tuổi mới của anh thật như ý!^^",
   "...",
-  "> em rất vui vì mình đã cùng nhau đón sinh nhật được 4 lần rùi, và sẽ thêm nhiều lần sau nữa. Cảm ơn vì tụi mình luôn chậm lại, lắng nghe và chia sẻ cùng nhau. Em mong sau này tụi mình luôn như vậy, đừng để vấn đề tạo nên khoảng cách giữa tụi mình. Cảm giác của em dành cho anh hôm nay vẫn vậy và nhiều hơn 3 năm về trước rất nhiều. Cảm ơn vì đã là một người đàn ông tử tế, người đã cho em rất nhiều ngưỡng mộ, em luôn thầm lặng quan sát và học hỏi từ anh rất nhiều! Có lẽ anh không đơn thuần là một người yêu, từ lâu em đã xem anh như một người bạn tri kỉ, đôi khi là một người thân trong gia đình mà không thể thiếu vắng. Anh cho em sự bình yên, cho em học cách biết chậm lại, bớt nóng nảy, biết lắng nghe và nhẫn nhịn nhiều hơn. Mình không chỉ yêu thôi, em mong mình sẽ đồng hành và giúp đỡ cho nhau trong cuộc sống, trong hành trình dài phía trước. Em không sợ khoảng cách, em chỉ sợ có điều gì làm cho anh lung lay, làm cho anh lay động mà quên đi ở đây vẫn luôn có em chờ và thương anh vô điều kiện. Mong cho anh luôn được bình an, mong rằng anh đôi khi cũng sẽ sống chậm lại để cảm nhận cuộc sống nhiều hơn. Mong cho tâm trí của anh luôn được thong thả, tâm hồn của anh sẽ được bình yên. Anh đã và luôn làm rất tốt, hãy cố gắng một chút nữa chắc chắn sẽ đến một ngày mình nhận được thành quả. ",
-  "...",
-  " mong mọi điều tốt đẹp đến với anh, thương anh thật nhiều"
+  " mong mọi điều tốt đẹp luôn đến với anh, thương anh thật nhiều"
 ];
 const TYPED_CHAR_DELAY = 100;
 const POST_TYPING_SCENE_DELAY = 1000;
