@@ -5,9 +5,3 @@ export default defineConfig({
   base: '/birthday-cake/',
   plugins: [react()],
 })
-      babel: {
-        plugins: [['babel-plugin-react-compiler']],
-      },
-    }),
-  ],
-})
