@@ -511,23 +511,23 @@ export default function App() {
 
   return (
     <div className="App">
-      <div 
+<div 
   className="background-overlay" 
   style={{ 
     opacity: backgroundOpacity,
     pointerEvents: backgroundOpacity > 0 ? 'all' : 'none' 
   }}
-        onClick={() => {
-          if (!hasStarted) {
-            playBackgroundMusic();
-            setHasStarted(true);
-          }
-          if (hasAnimationCompleted && isCandleLit) {
-            setIsCandleLit(false);
-            setFireworksActive(true);
-          }
-        }}
-      >
+  onClick={() => {
+    if (!hasStarted) {
+      playBackgroundMusic();
+      setHasStarted(true);
+    }
+    if (hasAnimationCompleted && isCandleLit) {
+      setIsCandleLit(false);
+      setFireworksActive(true);
+    }
+  }}
+>
         <div className="typed-text">
           {typedLines.map((line, index) => {
             const showCursor =
