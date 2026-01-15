@@ -46,7 +46,7 @@ canvas {
 }
 
 .typed-text {
-  font-family: "Courier New", Courier, monospace;
+  font-family:sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 600;
   letter-spacing: 0.12em;
