@@ -81,7 +81,7 @@ const TYPED_LINES = [
   "> chúc mừng sinh nhật khoa của em, cảm ơn vì đã luôn cố gắng,chúc cho tuổi mới của anh thật như ý!^^",
   "> mong mọi điều tốt đẹp luôn đến với anh, thương anh thật nhiều"
 ];
-const TYPED_CHAR_DELAY = 100;
+const TYPED_CHAR_DELAY = 50;
 const POST_TYPING_SCENE_DELAY = 1000;
 const CURSOR_BLINK_INTERVAL = 480;
 
