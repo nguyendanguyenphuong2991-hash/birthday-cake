@@ -511,9 +511,19 @@ export default function App() {
 
   return (
     <div className="App">
-      <div
+         <div
         className="background-overlay"
         style={{ opacity: backgroundOpacity }}
+        onClick={() => {
+          if (!hasStarted) {
+            playBackgroundMusic();
+            setHasStarted(true);
+          }
+          if (hasAnimationCompleted && isCandleLit) {
+            setIsCandleLit(false);
+            setFireworksActive(true);
+          }
+        }}
       >
         <div className="typed-text">
           {typedLines.map((line, index) => {
